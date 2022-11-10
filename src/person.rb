@@ -1,4 +1,5 @@
 require_relative './nameable.rb'
+require_relative './decorator.rb'
 
 class Person < Nameable
   attr_accessor :name, :age, :parent_permission
