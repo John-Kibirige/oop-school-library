@@ -1,7 +1,9 @@
-require_relative './app.rb'
+#!/usr/bin/env ruby
 
-def main 
-    App.new.run 
-end 
+require_relative './app'
 
-main()
+def main
+  App.new.run
+end
+
+main
